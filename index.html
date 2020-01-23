@@ -2,15 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>MEGAJUMP - надувные батуты</title>
+    <meta name="description" content="Коммерческие надувные
+                    батуты и горки напрямую
+                    от производителя">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="fonts/font.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon-1.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="fonts/ico-moon/style.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/fotorama.css">
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/style.css">
+<meta name="google-site-verification" content="LAFHwEAnrGT6fxO6wRkHylpkjjE7g5zd73e3gglidhU" />
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-2607254643357892",
+    enable_page_level_ads: true
+  });
+</script>
 </head>
+
+
 <body>
 <div class="first-screen">
     <div class="container">
@@ -26,7 +41,7 @@
                     </p>
                 </div>
 
-                <p class="header__inner__catalog">
+                <p class="header__inner__catalog order-trigger">
                     <img src="img/price_small.png" alt="">
                     заказать КАТАЛОГ
                 </p>
@@ -38,8 +53,9 @@
                             <span class="header__inner__worktime__row__ico__wrap__inner icon-1"></span>
                         </div>
                         <div class="header__inner__worktime__row__number">
-                            <a class="header__inner__worktime__row__number__tel" href="tel:89373182458">89373182458</a>
-                            <p class="header__inner__worktime__row__number__recall">Перезвоните мне</p>
+                            <a class="header__inner__worktime__row__number__tel"
+                               href="tel:+79061016080">+7(906)1016080</a>
+                            <p class="header__inner__worktime__row__number__recall consult-trigger">Перезвоните мне</p>
                         </div>
                     </div>
 
@@ -70,10 +86,10 @@
                         <span class="icon-book"></span>
                         <div class="first-screen-content-adv__item__text">
                             <p class="first-screen-content-adv__item__text__title">
-                                В каталоге более 150 
+                                В каталоге представлены&nbsp;
                             </p>
                             <p class="first-screen-content-adv__item__text__content">
-                                батутов разных тематик, дизайна,<br>
+                                батуты разных тематик, дизайна,<br>
                                 размеров и персонажей
                             </p>
                         </div>
@@ -92,15 +108,15 @@
                     </div>
                 </div>
                 <div class="btn-main-wrap">
-                    <button class="btn btn-main">
+                    <a id="quiz_button" href="#quiz" class="btn btn-main">
                         <img src="img/calc.svg" alt=""> Подобрать батут
-                    </button>
+                    </a>
                     <div class="btn-main-present">
                         <p>Ответив на 6 вопросов мы подберем
                             и рассчитаем надувной батут + Вы
                             получите персональный подарок
                         </p>
-                        <img src="img/present.png" alt=""></div>
+                        <img id="present_shake" src="img/present.png" alt=""></div>
                 </div>
             </div>
 
@@ -113,12 +129,13 @@
         <div class="container">
             <div class="test-item__content form-before">
                 <div class="test-item__header">
-                    <h2 class="section-title section-title--center section-title--black">Подберите и рассчитайте
-                        стоимость
+                    <h2 id="quiz" class="section-title section-title--center section-title--black">Подберите и
+                        рассчитайте
+                        стоимость<br>
                         надувного батута по Вашим параметрам
 
                     </h2>
-                    <p class="section-title__desc  section-title__desc--center">Ответьте на 6 вопросов и  получите
+                    <p class="section-title__desc  section-title__desc--center">Ответьте на 6 вопросов и&nbsp; получите
                         гарантированный подарок на выбор.</p>
 
                     <div class="test-item__progress">
@@ -133,10 +150,10 @@
                             <div class="test-circle test-circle-0 test-circle-active">
                             </div>
 
-                            <div class="test-block test-block-0 test-block-active">
+                            <div class="test-block test-block-0">
                             </div>
 
-                            <div class="test-circle test-circle-1 test-circle-active">
+                            <div class="test-circle test-circle-1">
                             </div>
 
                             <div class="test-block test-block-1">
@@ -180,10 +197,8 @@
 
                             <div class="test-circle test-circle-8">
                             </div>
-                            <div class="test-block test-block-8">
-                            </div>
-                            <div class="test-circle test-circle-9">
-                            </div>
+
+
                         </div>
                     </div>
 
@@ -198,55 +213,51 @@
 
                     </div>
                     <div class="test-slider__wrap">
-                        <form action="#" id="testForm" method="POST">
+                        <form action="mail.php" id="testForm" method="POST" onsubmit="yaCounter53394883.reachGoal('forma')">
                             <input type="hidden" name="formname" value="quiz-form">
-                            <div class="test-slider">
+                            <div id="quiz_scroll" class="test-slider">
                                 <div class="test-slider__item">
                                     <h3 class="test-slider-title">
                                         <p>1 вопрос</p>
                                         Где у Вас планируется установка батута?
                                     </h3>
                                     <div class="test-slider__content">
-
                                         <div class="test-slider__elem-min">
-                                            <label for="roofType-1">
+                                            <label for="qn1_1">
 										    	   <span class="customRadio__img"
                                                          style="background: url(img/item1_1.jpg) no-repeat center; background-size: cover;">
 										    	   </span>
                                             </label>
 
-                                            <input type="radio" name="roofType" class="customRadio_radio"
-                                                   id="roofType-1" value="Вторичка">
+                                            <input type="radio" name="qn1" class="customRadio_radio"
+                                                   id="qn1_1" value="В помещении">
 
-                                            <label for="roofType-1" class="customRadio_label">
+                                            <label for="qn1_1" class="customRadio_label">
 										    	   <span class="customRadio_label-cirkle">
 										    	   </span>
                                                 <span>В помещении</span>
                                             </label>
                                         </div>
-
                                         <div class="test-slider__elem-min">
-                                            <label for="roofType-2">
+                                            <label for="qn1_2">
 										    	   <span class="customRadio__img"
                                                          style="background: url(img/item1_2.jpg) no-repeat center; background-size: cover;">
 										    	   </span>
                                             </label>
 
-                                            <input type="radio" name="roofType" class="customRadio_radio"
-                                                   id="roofType-2" value="В новостройке">
+                                            <input type="radio" name="qn1" class="customRadio_radio"
+                                                   id="qn1_2" value="На улице">
 
-                                            <label for="roofType-2" class="customRadio_label">
+                                            <label for="qn1_2" class="customRadio_label">
 										    	   <span class="customRadio_label-cirkle">
 										    	   </span>
                                                 <span>На улице</span>
                                             </label>
                                         </div>
-
-
                                     </div>
 
                                     <div class="btn--wrap">
-                                        <button class="btn-test next-test">
+                                        <button class="btn-test next-test ">
                                             <span>Далее</span>
                                         </button>
                                     </div>
@@ -271,7 +282,7 @@
                                                 <div class="test-slider__data__inputs_items">
                                                     <div class="test-slider__data__inputs_items_item">
                                                         <p class="test-slider__data__inputs_items_item_title">Длина</p>
-                                                        <input id="length" name="size" type="text" step="0.1"
+                                                        <input id="length" name="length" type="number" step="0.1"
                                                                placeholder="1.8"
                                                                class="test-slider__data__inputs_items_item_input">
                                                         <label class="test-slider__data__inputs_items_item_label"
@@ -279,7 +290,7 @@
                                                     </div>
                                                     <div class="test-slider__data__inputs_items_item">
                                                         <p class="test-slider__data__inputs_items_item_title">Ширина</p>
-                                                        <input id="width" name="size" type="text" step="0.1"
+                                                        <input id="width" name="width" type="number" step="0.1"
                                                                placeholder="1.8"
                                                                class="test-slider__data__inputs_items_item_input">
                                                         <label class="test-slider__data__inputs_items_item_label"
@@ -287,7 +298,7 @@
                                                     </div>
                                                     <div class="test-slider__data__inputs_items_item">
                                                         <p class="test-slider__data__inputs_items_item_title">Высота</p>
-                                                        <input id="height" name="size" type="text" step="0.1"
+                                                        <input id="height" name="height" type="number" step="0.1"
                                                                placeholder="1.8"
                                                                class="test-slider__data__inputs_items_item_input">
                                                         <label class="test-slider__data__inputs_items_item_label"
@@ -297,7 +308,8 @@
                                             </div>
 
                                             <div class="test-slider__input">
-                                                <input type="checkbox" name="no" class="customRadio_radio" id="no">
+                                                <input type="checkbox" value="не помню" name="no"
+                                                       class="customRadio_radio" id="no">
                                                 <label for="no" class="customRadio_label customRadio_label-check">
                                                     <span class="checkbox-item"></span>
                                                     <span>Не помню</span>
@@ -324,16 +336,16 @@
                                     </h3>
                                     <div class="test-slider__content">
                                         <div class="test-slider__elem test-slider__elem-min">
-                                            <label for="test3-1">
+                                            <label for="qn3_1">
 												   <span class="customRadio__img"
                                                          style="background: url(img/item3_1.jpg) no-repeat center; background-size: cover;">
 												   </span>
                                             </label>
 
-                                            <input type="radio" name="construction" class="customRadio_radio"
-                                                   id="test3-1" value="Простой. Горка + игровые элементы">
+                                            <input type="radio" name="qn3" class="customRadio_radio"
+                                                   id="qn3_1" value="Простой. Горка + игровые элементы">
 
-                                            <label for="test3-1" class="customRadio_label">
+                                            <label for="qn3_1" class="customRadio_label">
 												   <span class="customRadio_label-cirkle">
 												   </span>
                                                 <span>Простой. Горка + игровые элементы</span>
@@ -341,17 +353,17 @@
                                             </label>
                                         </div>
                                         <div class="test-slider__elem test-slider__elem-min">
-                                            <label for="test3-2">
+                                            <label for="qn3_2">
 												   <span class="customRadio__img"
                                                          style="background: url(img/item3_2.jpg) no-repeat center; background-size: cover;">
 												   </span>
                                             </label>
 
-                                            <input type="radio" name="construction" class="customRadio_radio"
-                                                   id="test3-2" value="Уникальный. Сложное интересное
+                                            <input type="radio" name="qn3" class="customRadio_radio"
+                                                   id="qn3_2" value="Уникальный. Сложное интересное
 оформление">
 
-                                            <label for="test3-2" class="customRadio_label">
+                                            <label for="qn3_2" class="customRadio_label">
 												   <span class="customRadio_label-cirkle">
 												   </span>
                                                 <span>Уникальный. Сложное интересное
@@ -360,16 +372,16 @@
                                             </label>
                                         </div>
                                         <div class="test-slider__elem test-slider__elem-min">
-                                            <label for="test3-3">
+                                            <label for="qn3_3">
 												   <span class="customRadio__img"
                                                          style="background: url(img/item3_3.jpg) no-repeat center; background-size: cover;">
 												   </span>
                                             </label>
 
-                                            <input type="radio" name="construction" class="customRadio_radio"
-                                                   id="test3-3" value="Полоса препятствий">
+                                            <input type="radio" name="qn3" class="customRadio_radio"
+                                                   id="qn3_3" value="Полоса препятствий">
 
-                                            <label for="test3-3" class="customRadio_label">
+                                            <label for="qn3_3" class="customRadio_label">
 												   <span class="customRadio_label-cirkle">
 												   </span>
                                                 <span>Полоса препятствий</span>
@@ -377,16 +389,16 @@
                                             </label>
                                         </div>
                                         <div class="test-slider__elem test-slider__elem-min">
-                                            <label for="test3-4">
+                                            <label for="qn3_4">
 												   <span class="customRadio__img"
                                                          style="background: url(img/item3_4.jpg) no-repeat center; background-size: cover;">
 												   </span>
                                             </label>
 
-                                            <input type="radio" name="construction" class="customRadio_radio"
-                                                   id="test3-4" value="Тематический ">
+                                            <input type="radio" name="qn3" class="customRadio_radio"
+                                                   id="qn3_4" value="Тематический ">
 
-                                            <label for="test3-4" class="customRadio_label">
+                                            <label for="qn3_4" class="customRadio_label">
 												   <span class="customRadio_label-cirkle">
 												   </span>
                                                 <span>Тематический </span>
@@ -394,26 +406,21 @@
                                             </label>
                                         </div>
                                         <div class="test-slider__elem test-slider__elem-min">
-                                            <label for="test3-5">
+                                            <label for="qn3_5">
 												   <span class="customRadio__img"
                                                          style="background: url(img/item3_5.jpg) no-repeat center; background-size: cover;">
 												   </span>
                                             </label>
 
-                                            <input type="radio" name="construction" class="customRadio_radio"
-                                                   id="test3-5" value="Для водных развлечений
-">
+                                            <input type="radio" name="qn3" class="customRadio_radio"
+                                                   id="qn3_5" value="Для водных развлечений">
 
-                                            <label for="test3-5" class="customRadio_label">
+                                            <label for="qn3_5" class="customRadio_label">
 												   <span class="customRadio_label-cirkle">
 												   </span>
-                                                <span>Для водных развлечений
-</span>
-
+                                                <span>Для водных развлечений</span>
                                             </label>
                                         </div>
-
-
                                     </div>
 
                                     <div class="btn--wrap">
@@ -444,15 +451,8 @@
                                                     <div class="gift-row__img">
                                                         <img src="img/icon4_1.svg" alt="">
                                                     </div>
-                                                    <p class="gift-row__text">3 предложения по приобретению батута</p>
-                                                </div>
-                                                <div class="gift-row">
-                                                    <div class="gift-row__img">
-                                                        <img src="img/icon4_2.svg" alt="">
+                                                    <p class="gift-row__text">Предложения по приобретению батута</p>
                                                     </div>
-                                                    <p class="gift-row__text">Предварительно рассчитанную
-                                                        бизнес-модель</p>
-                                                </div>
                                                 <div class="gift-row">
                                                     <div class="gift-row__img">
                                                         <img src="img/icon4_3.svg" alt="">
@@ -465,10 +465,10 @@
 
                                     </div>
                                     <div class="btn--wrap">
-                                        <button class=" btn-test prev-test">
+                                        <button class=" btn-test prev-test prev-test--active">
                                             <span>Назад</span>
                                         </button>
-                                        <button class="btn-test next-test-empty">
+                                        <button class="btn-test next-test-empty next-test--active">
                                             <span>Далее</span>
 
                                         </button>
@@ -480,12 +480,11 @@
                                         В какой бюджет планируете уложиться?
                                     </h3>
                                     <div class="test-slider__content">
-
                                         <div class=" test-slider__elem-radio">
-                                            <input type="radio" name="orderRoof" class="customRadio_radio"
-                                                   id="orderRoof-5_1" value="Да у меня есть дизайн-проект">
+                                            <input type="radio" name="qn4" class="customRadio_radio"
+                                                   id="qn4_1" value="до 200 тыс. р">
 
-                                            <label for="orderRoof-5_1"
+                                            <label for="qn4_1"
                                                    class="customRadio_label customRadio_label-fix">
 											   <span class="customRadio_label-cirkle">
 											   </span>
@@ -494,10 +493,10 @@
                                             </label>
                                         </div>
                                         <div class=" test-slider__elem-radio">
-                                            <input type="radio" name="orderRoof" class="customRadio_radio"
-                                                   id="orderRoof-5_2" value="Нет, без дизаайн-проекта">
+                                            <input type="radio" name="qn4" class="customRadio_radio"
+                                                   id="qn4_2" value="от 200 тыс. до 300 тыс. р">
 
-                                            <label for="orderRoof-5_2"
+                                            <label for="qn4_2"
                                                    class="customRadio_label customRadio_label-fix">
 											   <span class="customRadio_label-cirkle">
 											   </span>
@@ -506,10 +505,10 @@
                                             </label>
                                         </div>
                                         <div class=" test-slider__elem-radio">
-                                            <input type="radio" name="orderRoof" class="customRadio_radio"
-                                                   id="orderRoof-5_3" value="Мне необходим дизайн-проект">
+                                            <input type="radio" name="qn4" class="customRadio_radio"
+                                                   id="qn4_3" value="от 300 тыс. до 500 тыс. р">
 
-                                            <label for="orderRoof-5_3"
+                                            <label for="qn4_3"
                                                    class="customRadio_label customRadio_label-fix">
 											   <span class="customRadio_label-cirkle">
 											   </span>
@@ -518,10 +517,10 @@
                                             </label>
                                         </div>
                                         <div class=" test-slider__elem-radio">
-                                            <input type="radio" name="orderRoof" class="customRadio_radio"
-                                                   id="orderRoof-5_4" value="Мне необходим дизайн-проект">
+                                            <input type="radio" name="qn4" class="customRadio_radio"
+                                                   id="qn4_4" value="более 500 тыс. р">
 
-                                            <label for="orderRoof-5_4"
+                                            <label for="qn4_4"
                                                    class="customRadio_label customRadio_label-fix">
 											   <span class="customRadio_label-cirkle">
 											   </span>
@@ -529,11 +528,6 @@
 
                                             </label>
                                         </div>
-
-                                        <div class="test-slider__img test-slider__img--2">
-                                            <img src="img/img5.png" alt="">
-                                        </div>
-
                                     </div>
 
                                     <div class="btn--wrap">
@@ -549,28 +543,28 @@
                                 <div class="test-slider__item">
                                     <h3 class="test-slider-title">
                                         <p>5 вопрос</p>
-                                        Планируете сами работать или хотите готовый бизнес?
+                                        Вы уже приобретали надувные батуты?
                                     </h3>
                                     <div class="test-slider__content test-slider__content--column">
                                         <div class=" test-slider__elem-radio">
-                                            <input type="radio" name="orderRoof" class="customRadio_radio"
-                                                   id="orderRoof-6_1" value="Да у меня есть дизайн-проект">
-                                            <label for="orderRoof-6_1"
+                                            <input type="radio" name="qn5" class="customRadio_radio"
+                                                   id="qn5_1" value="Да, уже был опыт">
+                                            <label for="qn5_1"
                                                    class="customRadio_label customRadio_label-fix">
 											   <span class="customRadio_label-cirkle">
 											   </span>
-                                                <span>Буду работать сам. Уже есть опыт</span>
+                                                <span>Да, уже был опыт</span>
 
                                             </label>
                                         </div>
                                         <div class=" test-slider__elem-radio">
-                                            <input type="radio" name="orderRoof" class="customRadio_radio"
-                                                   id="orderRoof-6_2" value="Нет, без дизаайн-проекта">
-                                            <label for="orderRoof-6_2"
+                                            <input type="radio" name="qn5" class="customRadio_radio"
+                                                   id="qn5_2" value="Нет, приобретаю впервые">
+                                            <label for="qn5_2"
                                                    class="customRadio_label customRadio_label-fix">
 											   <span class="customRadio_label-cirkle">
 											   </span>
-                                                <span>Хочу готовый бизнес</span>
+                                                <span>Нет, приобретаю впервые</span>
 
                                             </label>
                                         </div>
@@ -588,36 +582,35 @@
                                 </div>
                                 <div class="test-slider__item">
                                     <h3 class="test-slider-title">
-                                        <p>6 вопрос</p>
-                                        В какой бюджет планируете уложиться?
+                                        <p>6 вопрос</p>Когда Вам нужен батут?
                                     </h3>
                                     <div class="test-slider__content">
                                         <div class=" test-slider__elem-radio">
-                                            <input type="radio" name="orderRoof" class="customRadio_radio"
-                                                   id="orderRoof-7_1" value="Да у меня есть дизайн-проект">
-                                            <label for="orderRoof-7_1"
+                                            <input type="radio" name="qn6" class="customRadio_radio"
+                                                   id="qn6_1" value="Чем раньше - тем лучше">
+                                            <label for="qn6_1"
                                                    class="customRadio_label customRadio_label-fix">
 											   <span class="customRadio_label-cirkle">
 											   </span>
-                                                <span>Когда Вам нужен батут?</span>
+                                                <span>Чем раньше - тем лучше</span>
 
                                             </label>
                                         </div>
                                         <div class=" test-slider__elem-radio">
-                                            <input type="radio" name="orderRoof" class="customRadio_radio"
-                                                   id="orderRoof-7_2" value="Да у меня есть дизайн-проект">
-                                            <label for="orderRoof-7_2"
+                                            <input type="radio" name="qn6" class="customRadio_radio"
+                                                   id="qn6_2" value="Не имеет значения">
+                                            <label for="qn6_2"
                                                    class="customRadio_label customRadio_label-fix">
 											   <span class="customRadio_label-cirkle">
 											   </span>
-                                                <span>Через 2 недели</span>
+                                                <span>Не имеет значения</span>
 
                                             </label>
                                         </div>
                                         <div class=" test-slider__elem-radio">
-                                            <input type="radio" name="orderRoof" class="customRadio_radio"
-                                                   id="orderRoof-7_3" value="Да у меня есть дизайн-проект">
-                                            <label for="orderRoof-7_3"
+                                            <input type="radio" name="qn6" class="customRadio_radio"
+                                                   id="qn6_3" value="Через месяц">
+                                            <label for="qn6_3"
                                                    class="customRadio_label customRadio_label-fix">
 											   <span class="customRadio_label-cirkle">
 											   </span>
@@ -626,9 +619,9 @@
                                             </label>
                                         </div>
                                         <div class=" test-slider__elem-radio">
-                                            <input type="radio" name="orderRoof" class="customRadio_radio"
-                                                   id="orderRoof-7_4" value="Да у меня есть дизайн-проект">
-                                            <label for="orderRoof-7_4"
+                                            <input type="radio" name="qn6" class="customRadio_radio"
+                                                   id="qn6_4" value="Через 2 месяца">
+                                            <label for="qn6_4"
                                                    class="customRadio_label customRadio_label-fix">
 											   <span class="customRadio_label-cirkle">
 											   </span>
@@ -655,16 +648,16 @@
                                     </h3>
                                     <div class="test-slider__content">
                                         <div class="test-slider__elem">
-                                            <label for="test8-1">
+                                            <label for="qn7_1">
 												   <span class="customRadio__img"
                                                          style="background: url(img/present1.jpg) no-repeat center; background-size: cover;">
 												   </span>
                                             </label>
 
-                                            <input type="radio" name="construction" class="customRadio_radio"
-                                                   id="test8-1" value="Простой. Горка + игровые элементы">
+                                            <input type="radio" name="qn7" class="customRadio_radio"
+                                                   id="qn7_1" value="Скидка -10%">
 
-                                            <label for="test8-1" class="customRadio_label">
+                                            <label for="qn7_1" class="customRadio_label">
 												   <span class="customRadio_label-cirkle">
 												   </span>
                                                 <span>Скидка -10%</span>
@@ -672,61 +665,39 @@
                                             </label>
                                         </div>
                                         <div class="test-slider__elem ">
-                                            <label for="test8-2">
+                                            <label for="qn7_2">
 												   <span class="customRadio__img"
                                                          style="background: url(img/present1.jpg) no-repeat center; background-size: cover;">
 												   </span>
                                             </label>
 
-                                            <input type="radio" name="construction" class="customRadio_radio"
-                                                   id="test8-2" value="Уникальный. Сложное интересное
-оформление">
+                                            <input type="radio" name="qn7" class="customRadio_radio"
+                                                   id="qn7_2" value="Бесплатная доставка">
 
-                                            <label for="test8-2" class="customRadio_label">
+                                            <label for="qn7_2" class="customRadio_label">
 												   <span class="customRadio_label-cirkle">
 												   </span>
-                                                <span>Бесплатная доставка
-оформление</span>
+                                                <span>Бесплатная доставка при заказе от 300 т.р.</span>
 
                                             </label>
                                         </div>
                                         <div class="test-slider__elem">
-                                            <label for="test8-3">
+                                            <label for="qn7_3">
 												   <span class="customRadio__img"
                                                          style="background: url(img/present1.jpg) no-repeat center; background-size: cover;">
 												   </span>
                                             </label>
 
-                                            <input type="radio" name="construction" class="customRadio_radio"
-                                                   id="test8-3" value="Полоса препятствий">
+                                            <input type="radio" name="qn7" class="customRadio_radio"
+                                                   id="qn7_3" value="Насос в подарок">
 
-                                            <label for="test8-3" class="customRadio_label">
+                                            <label for="qn7_3" class="customRadio_label">
 												   <span class="customRadio_label-cirkle">
 												   </span>
                                                 <span>Насос в подарок</span>
 
-                                            </label>
-                                        </div>
-                                        <div class="test-slider__elem ">
-                                            <label for="test8-4">
-												   <span class="customRadio__img"
-                                                         style="background: url(img/present1.jpg) no-repeat center; background-size: cover;">
-												   </span>
-                                            </label>
-
-                                            <input type="radio" name="construction" class="customRadio_radio"
-                                                   id="test8-4" value="Тематический ">
-
-                                            <label for="test8-4" class="customRadio_label">
-												   <span class="customRadio_label-cirkle">
-												   </span>
-                                                <span>Пакет документов:
-Бизнес на батутах</span>
-
-                                            </label>
-                                        </div>
-
-
+                                           
+</div>
                                     </div>
 
                                     <div class="btn--wrap">
@@ -748,11 +719,10 @@
                                             <div class="test-slider__item-end__send">
                                                 <p class="test-slider__item-end__title">
                                                     Введите Ваш номер телефона и мы вышлем на него стоимость
-                                                    и дизайн-проект
+                                                    и фото аттракциона
                                                 </p>
                                                 <div class="test-slider__item-end__send__social">
                                                     <div class="test-slider__num-item">
-
                                                         <input type="radio" name="numbers" class="customRadio_radio"
                                                                id="numbers-1" checked="" value="Viber" tabindex="0">
 
@@ -794,32 +764,26 @@
                                                             <span class="customRadio_label-cirkle">
 												   </span>
                                                         </label>
-
-                                                    </div>
-                                                    <div class="test-slider__num-item">
-
-                                                        <input type="radio" name="numbers" class="customRadio_radio"
-                                                               id="numbers-4" checked="" value="По SMS" tabindex="0">
-
-                                                        <label for="numbers-4"
-                                                               class="customRadio_label customRadio_label-final">
-                                                            <span class="final-label"> <span
-                                                                    class="final-label__img"><img src="img/mail.png"
-                                                                                                  alt=""></span>По СМС</span>
-                                                            <span class="customRadio_label-cirkle">
-												   </span>
-                                                        </label>
-
+                                               
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="inputs_form">
                                                 <div class="quiz_tel_wrap"><span class="icon-1"></span><input
-                                                        class="quiz_tel" type="tel" id="tel"
-                                                        placeholder="+375 (**) *** ** **">
+                                                        class="quiz_tel" name="phone" type="tel" id="tel" required
+                                                        placeholder="+7 (***) *** ** **">
                                                 </div>
-                                                <div class="button-main">
-                                                    <button class="btn_quiz btn" type="submit">ПОЛУЧИТЬ РЕЗУЛЬТАТ
+<div class="steps-item__input ">
+                    <label class="steps-item__input__label" for="tel4"><span class="icon-100"></label>
+                    <input required id="name" name="name" placeholder="Ваше имя" class="steps-item__input__inner"
+                           type="text">
+                </div><div class="steps-item__input ">
+                    <label class="steps-item__input__label" for="tel"><span class="icon-100"></label>
+                    <input required id="country" name="country" placeholder="Ваш  город" class="steps-item__input__inner"
+                           type="text">
+                </div>                                                <div class="button-main">
+                                                    <button form="testForm" class="btn_quiz btn" type="submit">ПОЛУЧИТЬ
+                                                        РЕЗУЛЬТАТ
                                                         РАССЧЕТА
                                                     </button>
                                                 </div>
@@ -838,7 +802,7 @@
 </section>
 <section class="third-screen">
     <div class="container">
-        <h2 class="section-title section-title--left section-title--black">На 1 надувном батуте наши клиенты
+        <h2 class="section-title section-title--left section-title--black">На 1 надувном батуте наши клиенты<br>
             зарабатывают в среднем от 150 000 руб в мес
         </h2>
         <p class="section-title__desc  section-title__desc--left">... как новички так и опытные предприниматели</p>
@@ -897,20 +861,25 @@
                     <img src="img/com_mockup.png" alt="">
                 </div>
             </div>
-            <div class="form profit__form pseudo">
-                <p class="form__title">Получите предложение
+            <form class="form profit__form pseudo" onsubmit="yaCounter53394883.reachGoal('forma')">
+                <input type="hidden" name="formname" value="predloj">
+                <p class="form__title">Получите руководство
                     по откртытию бизнеса
                     с надувными батутами</p>
                 <p class="form__desc">Обновлено: 24 марта 2019</p>
                 <div class="form__input__item">
                     <label class="form__input__item__label" for="country"><img src="img/place.png" alt=""></label>
-                    <input id="country" placeholder="Ваш город" class="form__input__item__inner" type="text"></div>
+                    <input name="country" required id="country" placeholder="Ваш город" class="form__input__item__inner"
+                           type="text">
+                </div>
                 <div class="form__input__item">
                     <label class="form__input__item__label" for="tel2"><img src="img/tel.png" alt=""></label>
-                    <input id="tel2" placeholder="Ваш телефон" class="form__input__item__inner" type="tel"></div>
-                <div class="btn btn--form">ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ</div>
+                    <input name="phone" required id="tel2" placeholder="Ваш телефон" class="form__input__item__inner"
+                           type="tel">
+                </div>
+                <button type="submit" class="btn btn--form">ПОЛУЧИТЬ РУКОВОДСТВО</button>
                 <p class="form__size">PDF 1.5 Mb</p>
-            </div>
+            </form>
         </div>
     </div>
 </section>
@@ -956,8 +925,9 @@
             и разнообразия тематик
         </h2>
         <div class="stock">
-            <div class="stock-item" style="background: url(img/s6_1.jpg) center center no-repeat">
-                <p class="stock-item__visible__title">Надувные батуты</p>
+            <div class="stock-item"
+                 style="background: url(img/s6_1.jpg) center center no-repeat;    background-size: cover;">
+                <p class="stock-item__visible__title">Надувные батуты <span>смотреть ещё</span></p>
                 <div class="stock-item__visible">
                     <div class="stock-item__visible__left">
                         <ul class="stock-item__visible__left__list">
@@ -970,167 +940,807 @@
                             <li class="stock-item__visible__left__list__item">Огромные батуты</li>
                             <li class="stock-item__visible__left__list__item">Батуты для детских комнат</li>
                         </ul>
-                        <a class="stock-item__visible__left__link" href=#"">В каталог</a>
+                        <a href="#catalog" class="stock-item__visible__left__link">В каталог</a>
                     </div>
                     <div class="stock-item__visible__right">
                         <p class="stock-item__visible__right__num">+26
                             <span class="stock-item__visible__right__num__text">вариантов</span></p>
-                        <p class="stock-item__visible__right__link">Подобрать индивидульно</p>
+                        <a href="#quiz" class="stock-item__visible__right__link">Подобрать индивидуально</a>
                     </div>
                 </div>
             </div>
-            <div class="stock-item" style="background: url(img/s6_2.jpg) center center no-repeat">
-                <p class="stock-item__visible__title">Надувные батуты</p>
+            <div class="stock-item"
+                 style="background: url(img/s6_2.jpg) center center no-repeat;    background-size: cover;">
+                <p class="stock-item__visible__title">Водные горки
+                    <span>смотреть ещё</span>
+                </p>
                 <div class="stock-item__visible">
                     <div class="stock-item__visible__left">
                         <ul class="stock-item__visible__left__list">
-                            <li class="stock-item__visible__left__list__item">Джунгли</li>
-                            <li class="stock-item__visible__left__list__item">Миньоны</li>
-                            <li class="stock-item__visible__left__list__item">Тачки</li>
-                            <li class="stock-item__visible__left__list__item">Высокие горки</li>
-                            <li class="stock-item__visible__left__list__item">Батуты с крышей</li>
-                            <li class="stock-item__visible__left__list__item">Пасть-робот</li>
-                            <li class="stock-item__visible__left__list__item">Огромные батуты</li>
-                            <li class="stock-item__visible__left__list__item">Батуты для детских комнат</li>
-                        </ul>
-                        <a class="stock-item__visible__left__link" href=#"">В каталог</a>
+                            <li class="stock-item__visible__left__list__item">Для пляжа</li>
+                            <li class="stock-item__visible__left__list__item">Бассейны</li>
+                            <li class="stock-item__visible__left__list__item">Зорбы</li>
+                            <li class="stock-item__visible__left__list__item">Водные горки</li>
+                            </ul>
+                        <a href="#catalog" class="stock-item__visible__left__link">В каталог</a>
                     </div>
                     <div class="stock-item__visible__right">
-                        <p class="stock-item__visible__right__num">+26
+                        <p class="stock-item__visible__right__num">+13
                             <span class="stock-item__visible__right__num__text">вариантов</span></p>
-                        <p class="stock-item__visible__right__link">Подобрать индивидульно</p>
+                        <a href="#quiz" class="stock-item__visible__right__link">Подобрать индивидуально</a>
                     </div>
                 </div>
             </div>
-            <div class="stock-item" style="background: url(img/s6_3.jpg) center center no-repeat">
-                <p class="stock-item__visible__title">Надувные батуты</p>
+            <div class="stock-item"
+                 style="background: url(img/s6_3.jpg) center center no-repeat;    background-size: cover;">
+                <p class="stock-item__visible__title">Надувные элементы	 <span>смотреть ещё</span></p>
                 <div class="stock-item__visible">
                     <div class="stock-item__visible__left">
                         <ul class="stock-item__visible__left__list">
-                            <li class="stock-item__visible__left__list__item">Джунгли</li>
-                            <li class="stock-item__visible__left__list__item">Миньоны</li>
-                            <li class="stock-item__visible__left__list__item">Тачки</li>
-                            <li class="stock-item__visible__left__list__item">Высокие горки</li>
-                            <li class="stock-item__visible__left__list__item">Батуты с крышей</li>
-                            <li class="stock-item__visible__left__list__item">Пасть-робот</li>
-                            <li class="stock-item__visible__left__list__item">Огромные батуты</li>
-                            <li class="stock-item__visible__left__list__item">Батуты для детских комнат</li>
+                            <li class="stock-item__visible__left__list__item">Арки</li>
+                            <li class="stock-item__visible__left__list__item">Фигуры </li>
+                            <li class="stock-item__visible__left__list__item">Элементы для пейнтбольных плащадок</li>
                         </ul>
-                        <a class="stock-item__visible__left__link" href=#"">В каталог</a>
+                        <a href="#catalog" class="stock-item__visible__left__link">В каталог</a>
                     </div>
                     <div class="stock-item__visible__right">
-                        <p class="stock-item__visible__right__num">+26
+                        <p class="stock-item__visible__right__num">+15
                             <span class="stock-item__visible__right__num__text">вариантов</span></p>
-                        <p class="stock-item__visible__right__link">Подобрать индивидульно</p>
+                         <a href="#quiz" class="stock-item__visible__right__link">ПОДОБРАТЬ&nbsp;ИНДИВИДУАЛЬНО</a>
                     </div>
                 </div>
             </div>
-            <div class="stock-item" style="background: url(img/s6_4.jpg) center center no-repeat">
-                <p class="stock-item__visible__title">Надувные батуты</p>
+            <div class="stock-item"
+                 style="background: url(img/s6_4.jpg) center center no-repeat;    background-size: cover;">
+                <p class="stock-item__visible__title"> Полосы препятствий <span>смотреть ещё</span></p>
                 <div class="stock-item__visible">
                     <div class="stock-item__visible__left">
                         <ul class="stock-item__visible__left__list">
-                            <li class="stock-item__visible__left__list__item">Джунгли</li>
-                            <li class="stock-item__visible__left__list__item">Миньоны</li>
-                            <li class="stock-item__visible__left__list__item">Тачки</li>
-                            <li class="stock-item__visible__left__list__item">Высокие горки</li>
-                            <li class="stock-item__visible__left__list__item">Батуты с крышей</li>
-                            <li class="stock-item__visible__left__list__item">Пасть-робот</li>
-                            <li class="stock-item__visible__left__list__item">Огромные батуты</li>
-                            <li class="stock-item__visible__left__list__item">Батуты для детских комнат</li>
+                            <li class="stock-item__visible__left__list__item">Для детей и взрослых</li>
+                            <li class="stock-item__visible__left__list__item">Огромные полосы препятствий</li>
+                            <li class="stock-item__visible__left__list__item">Полосы из нескольких элементов</li>
                         </ul>
-                        <a class="stock-item__visible__left__link" href=#"">В каталог</a>
+                        <a href="#catalog" class="stock-item__visible__left__link">В каталог</a>
                     </div>
                     <div class="stock-item__visible__right">
-                        <p class="stock-item__visible__right__num">+26
+                        <p class="stock-item__visible__right__num">+6
                             <span class="stock-item__visible__right__num__text">вариантов</span></p>
-                        <p class="stock-item__visible__right__link">Подобрать индивидульно</p>
+                        <a href="#quiz" class="stock-item__visible__right__link">Подобрать&nbsp;индивидуально</a>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="sixth-screen">
+    <div class="container container-row">
+        <h2 id="catalog" class="section-title section-title--left section-title--black">Закажите полный каталог<br>
+            с фото и ценами
+        </h2>
+        <form class="form catalog__form  pseudo" onsubmit="yaCounter53394883.reachGoal('forma')">
+            <input type="hidden" name="formname" value="skachat">
+            <p class="form__desc">Обновлено: 24 марта 2019</p>
+            <div class="form__input__item">
+                <label class="form__input__item__label" for="name"><img src="img/place.png" alt=""></label>
+                <input name="name" required id="name" placeholder="Ваше имя" class="form__input__item__inner"
+                       type="text"></div>
+            <div class="form__input__item">
+                <label class="form__input__item__label" for="email"><img src="img/mail2.png" alt=""></label>
+                <input name="e-mail" required id="email" placeholder="Ваш e-mail" class="form__input__item__inner"
+                       type="email"></div>
+            <div class="form__input__item">
+                <label class="form__input__item__label" for="tel3"><img src="img/tel.png" alt=""></label>
+                <input name="phone" required id="tel3" placeholder="Ваш телефон" class="form__input__item__inner"
+                       type="tel"></div>
+            <div class="btn--form2">
+                              <button type="submit" class="btn btn--form">СКАЧАТЬ КАТАЛОГ С ЦЕНАМИ</button>
+            </div>
+            <p class="form__size">PDF 1.5 Mb</p>
+        </form>
+    </div>
+</section>
+<section class="seventh-screen">
+    <div class="container">
+        <h2 class="section-title section-title--center section-title--white">Посмотрите, как выглядят наши батуты вживую
+        </h2>
+        <div class="gallery">
+            <div class="gallery-wrap">
+                <a data-fancybox="gallery" href="img/grid1.jpg" class="gallery-wrap__item">
+                    <div class="sert_gallery_hover">
+                        <img src="img/zoom.png" alt="">
+                    </div>
+                    <img src="img/grid1.jpg" alt=""></a>
+                <a data-fancybox="gallery" href="img/grid2.jpg" class="gallery-wrap__item">
+                    <div class="sert_gallery_hover">
+                        <img src="img/zoom.png" alt="">
+                    </div>
+                    <img src="img/grid2.jpg"
+                         alt=""></a>
+                <a data-fancybox="gallery" href="img/grid3.jpg" class="gallery-wrap__item">
+                    <div class="sert_gallery_hover">
+                        <img src="img/zoom.png" alt="">
+                    </div>
+                    <img src="img/grid3.jpg"
+                         alt=""></a>
+                <a data-fancybox="gallery" href="img/grid4.jpg" class="gallery-wrap__item">
+                    <div class="sert_gallery_hover">
+                        <img src="img/zoom.png" alt="">
+                    </div>
+                    <img src="img/grid4.jpg"
+                         alt=""></a>
+                <a data-fancybox="gallery" href="img/grid5.jpg" class="gallery-wrap__item">
+                    <div class="sert_gallery_hover">
+                        <img src="img/zoom.png" alt="">
+                    </div>
+                    <img src="img/grid5.jpg"
+                         alt=""></a>
+                <a data-fancybox="gallery" href="img/grid6.jpg" class="gallery-wrap__item">
+                    <div class="sert_gallery_hover">
+                        <img src="img/zoom.png" alt="">
+                    </div>
+                    <img src="img/grid6.jpg"
+                         alt=""></a>
+                <a data-fancybox="gallery" href="img/grid7.jpg" class="gallery-wrap__item">
+                    <div class="sert_gallery_hover">
+                        <img src="img/zoom.png" alt="">
+                    </div>
+                    <img src="img/grid7.jpg"
+                         alt=""></a>
+                <a data-fancybox="gallery" href="img/grid8.jpg" class="gallery-wrap__item">
+                    <div class="sert_gallery_hover">
+                        <img src="img/zoom.png" alt="">
+                    </div>
+                    <img src="img/grid8.jpg"
+                         alt=""></a>
+            </div>
+            <p class="gallery__more">Показать ещё</p>
+        </div>
+    </div>
+</section>
+<section class="eight-screen">
+    <div class="container ">
+        <h2 class="section-title section-title--center section-title--black">Если Вам не подошли батуты из каталога -
+            сделаем
+            батут по индивидуальным размерам
+        </h2>
+        <div class="slide">
+            <div class="slide__desc slide__left">
+                <p class="slide__desc__item">
+                    Клиент должен заполнить бриф
+                    для создания проекта
+                </p>
+                <p class="slide__desc__item">
+                    Далее дизайнер создает
+                    проект, по желаниям Клиента
+                </p>
+                <p class="slide__desc__item">
+                    Проект отправляется на
+                    согласование
+                </p>
+            </div>
+            <div class="slide__center">
+                <div class="split-picture">
+                    <div class="picture-split picture-left" style="background-image:url(img/split1.jpg)">
+
+                    </div>
+                    <div class="picture-split picture-right ui-resizable"
+                         style="width: 50%; background-image: url(img/split2.jpg);">
+
+                    </div>
+                </div>
+            </div>
+            <div class="slide__desc slide__right">
+                <p class="slide__desc__item">
+                    После согласования Клиент
+                    заключает с нами договор
+                    и вносит предоплату
+                </p>
+                <p class="slide__desc__item">
+                    Производство батута
+                </p>
+                <p class="slide__desc__item">
+                    Отгрузка батута клиенту
+                </p>
+            </div>
+        </div>
+        <div class="slide-order">
+            <p class="slide-order__title">Подберем размер Вашего батута, наполнение, сделаем
+                чертежи и отправим на производство.</p>
+            <div class="slide-order__button offer-trigger">
+                <div class="slide-order__button__inner btn ">Заказать индивидуальный батут
+                    <span class="btn__desc">и получить 3D макет</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="ninth-screen">
+    <div class="container">
+        <h2 class="section-title section-title--center section-title--black">Все батуты сделаны по ГОСТу и безопасны
+            для ваших посетителей
+        </h2>
+        <p class="section-title__desc  section-title__desc--center">В каждом наборе батута</p>
+        <div class="sert_gallery" data-allowfullscreen="true" data-nav="thumbs">
+            <a>
+                <div class="sert_gallery_image">
+                    <div class="sert_gallery_image_inner">
+                        <img src="img/sert/sert1.jpg" alt="">
+                    </div>
+                    <div class="sert_gallery_hover">
+                        <img src="img/zoom.png" alt="">
+                    </div>
+                </div>
+                <p class="sert_gallery_title">Декларация о соответствии воздушных насосов требования безопасности </p>
+            </a>
+            <a>
+                <div class="sert_gallery_image">
+                    <div class="sert_gallery_image_inner">
+                        <img src="img/sert/sert2.jpeg" alt="">
+                    </div>
+                    <div class="sert_gallery_hover">
+                        <img src="img/zoom.png" alt="">
+                    </div>
+                </div>
+                <p class="sert_gallery_title">Декларация о соответствии надувных аттракционов требованиям безопасности</p>
+            </a>
+            <a>
+                <div class="sert_gallery_image">
+                    <div class="sert_gallery_image_inner">
+                        <img src="img/sert/sert3.jpg" alt="">
+                    </div>
+                    <div class="sert_gallery_hover">
+                        <img src="img/zoom.png" alt="">
+                    </div>
+                </div>
+                <p class="sert_gallery_title">Гигиенический сертификат на материал с протоколом испытаний</p>
+            </a>
+            <a>
+                <div class="sert_gallery_image">
+                    <div class="sert_gallery_image_inner">
+                        <img src="img/sert/sert4.jpg" alt="">
+                    </div>
+                    <div class="sert_gallery_hover">
+                        <img src="img/zoom.png" alt="">
+                    </div>
+                </div>
+                <p class="sert_gallery_title">Сертификат соответствия аттракционов требованиям пожарной безопасности</p>
+            </a>
+            <a>
+                <div class="sert_gallery_image">
+                    <div class="sert_gallery_image_inner">
+                        <img src="img/sert/sert5.jpg" alt="">
+                    </div>
+                    <div class="sert_gallery_hover">
+                        <img src="img/zoom.png" alt="">
+                    </div>
+                </div>
+                <p class="sert_gallery_title">Формуляр (паспорт) аттракциона</p>
+            </a>
+        </div>
+    </div>
+</section><!-- Yandex.RTB R-A-404059-1 -->
+<div id="yandex_rtb_R-A-404059-1"></div>
+<script type="text/javascript">
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-A-404059-1",
+                renderTo: "yandex_rtb_R-A-404059-1",
+                async: true
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.type = "text/javascript";
+        s.src = "//an.yandex.ru/system/context.js";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+</script><!-- Yandex.RTB R-A-404059-2 -->
+<div id="yandex_rtb_R-A-404059-2"></div>
+<script type="text/javascript">
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-A-404059-2",
+                renderTo: "yandex_rtb_R-A-404059-2",
+                async: true
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.type = "text/javascript";
+        s.src = "//an.yandex.ru/system/context.js";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+</script>
+<section class="tenth-screen">
+    <div class="container">
+        <h2 class="section-title section-title--center section-title--white">Наши батуты удобны для детей и практичны
+            для владельцев</h2>
+        <div class="advantages">
+            <div class="advantages-item">
+                <div class="advantages-item__img">
+                    <img src="img/c6_1.png" alt="">
+                </div>
+                <p class="advantages-item__title">Выдерживают большие нагрузки</p>
+                <p class="advantages-item__content">Наши батуты подходят для массовых мероприятий и ежедневной
+                    эксплуатации. Лесенки, фигурки и места,
+                    где дети прыгают, мы усиливаем двойным слоем материала и тройным прошитием. Так батут служить
+                    дольше.</p>
+            </div>
+            <div class="advantages-item">
+                <div class="advantages-item__img">
+                    <img src="img/c6_2.png" alt="">
+                </div>
+                <p class="advantages-item__title">Рисунок защищен от выцветания</p>
+                <p class="advantages-item__content">Покрываем поверхность защитным составом, при этом батут меньше
+                    изнашивается, не выцветает на солнце, а рисунок не стирается.</p>
+            </div>
+            <div class="advantages-item">
+                <div class="advantages-item__img">
+                    <img src="img/c6_3.png" alt="">
+                </div>
+                <p class="advantages-item__title">Ветром не сдует</p>
+                <p class="advantages-item__content">Благодаря количеству креплений и самому креплению, усиленному
+                    стропой, если подует ветер крепление не оторвется и батут никуда не улетит.</p>
+            </div>
+            <div class="advantages-item">
+                <div class="advantages-item__img">
+                    <img src="img/c6_4.png" alt="">
+                </div>
+                <p class="advantages-item__title">Нейлоновые нити</p>
+                <p class="advantages-item__content">Сшит с помощью специальных многослойных нейлоновых нитей, которые:Не
+                    преют и не гниют.Не развалятся, если пойдет дождь.Не рвутся при нагрузке по швам.С такими нитками
+                    наш батут продержится минимум 5 сезонов.</p>
+            </div>
+            <div class="advantages-item">
+                <div class="advantages-item__img">
+                    <img src="img/c6_5.png" alt="">
+                </div>
+                <p class="advantages-item__title">Материал — армированный ПВХ
+                    толщиной 0,55 мм</p>
+                <p class="advantages-item__content">Основной материал, который мы используем — армированный двусторонний
+                    ПВХ. Это эластичный при сминании материал, на котором не остается заломов при сворачивании и
+                    транспортировке. Плотность — 1 000 дэн.</p>
+            </div>
+            <div class="advantages-item">
+                <div class="advantages-item__img">
+                    <img src="img/c6_6.png" alt="">
+                </div>
+                <p class="advantages-item__title">Практично для детей</p>
+                <p class="advantages-item__content">Все лесенки и спуски делаем на сменной липучке. Через пару лет их
+                    легко можно снять и заменить. На лесенках делаем ручки, перила и обязательную ступеньку на входе,
+                    чтобы даже маленькие дети легко забирались на батут без помощи родителей.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="eleventh-screen">
+    <div class="container">
+        <h2 class="section-title section-title--center section-title--black">Даем 2 года гарантии, прописанной в
+            договоре
+        </h2>
+        <p class="section-title__desc  section-title__desc--center">Гарантия 2 года на все батуты. Все гарантийные
+            случаи прописаны в гарантийном талоне. Вместе<br>
+            с батутом вы получаете ремонтный набор. Там есть всё необходимое для срочного ремонта.</p>
+        <div class="contract">
+            <div class="contract-item">
+                <div class="contract-item__img">
+                    <img src="img/contract.jpg" alt="">
+                </div>
+                <a href="dogovor.doc" class="contract-item__link">
+                    Скачать пример договора
+                </a>
+            </div>
+            <div class="contract-dir">
+                <div class="contract-dir__inner">
+                    <p class="contract-dir__inner__title">45 слов руководителя о компании</p>
+                    <p class="contract-dir__inner__content">Всем привет. Начиная с 2016 года наша компания не только
+                        работает в
+                        сфере развлечений, но и реализует оборудование для детских площадок и развлекательных
+                        центров. Наши батуты имеют самый современный дизайн и действительно проходят
+                        проверки в испытательном центре в соответствии с современными стандартами
+                        качества. Наша команда подберет для Вас лучшие варианты, под Ваши нужды и сделает
+                        выгодное предложение. Мы сами умеем зарабатывать на надувных батутах на наших
+                        площадках и всегда поможем Вам в этом.</p>
                 </div>
             </div>
 
         </div>
+        <div class="person">
+            <div class="person__img"><img src="img/guy.png" alt=""></div>
+            <p class="person__name">Дмитрий Мощевитин</p>
+            <div class="person__status">Руководитель компании MEGA JUMP надувные батуты</div>
+        </div>
+    </div>
+
+</section>
+<section class="twelve-screen">
+    <div class="container">
+        <h2 class="section-title section-title--center section-title--black">Как будет происходить работы над Вашим
+            заказом
+        </h2>
+        <div class="steps">
+            <form class="steps-item" onsubmit="yaCounter53394883.reachGoal('forma')">
+                <input type="hidden" name="formname" value="podobr">
+                <div class="steps-item__img">
+                    <img src="img/s1.png" alt="">
+                </div>
+                <p class="steps-item__num">1 шаг</p>
+                <p class="steps-item__title steps-item__title--form">Оставляете заявку на
+                    подбор батута</p>
+                <div class="steps-item__input ">
+                    <label class="steps-item__input__label" for="tel4"><img src="img/mail3.png" alt=""></label>
+                    <input required id="tel4" name="phone" placeholder="Ваш телефон" class="steps-item__input__inner"
+                           type="tel">
+                </div>
+                <button class="steps-item__button" type="submit">ПОДОБРАТЬ БАТУТ</button>
+            </form>
+            <div class="steps-item">
+                <div class="steps-item__img">
+                    <img src="img/s2.png" alt="">
+                </div>
+                <p class="steps-item__num">2 шаг</p>
+                <p class="steps-item__title">Подбираем батут и
+                    согласовываем все
+                    условия</p>
+                <div class="steps-item__text">
+                    <p class="steps-item__text__content">
+                        исходя из Ваших
+                        потребностей, высылаем на
+                        почту коммерческое
+                        предложение</p>
+                    <p class="steps-item__text__show">Раскрыть</p>
+                </div>
+
+            </div>
+            <div class="steps-item">
+                <div class="steps-item__img">
+                    <img src="img/s3.png" alt="">
+                </div>
+                <p class="steps-item__num">3 шаг</p>
+                <p class="steps-item__title">Заключаем договор</p>
+                <div class="steps-item__text">
+                    <p class="steps-item__text__content">
+                        - Отправляете нам свои данные для оформления договора поставки
+                        - Мы формируем договор, подписываем и высылаем клиенту- Вы подписываете договор, делаете сканы
+                        всех листов и высылаете нам- Мы отправляем оригинал договора по почте заказным письмом</p>
+                    <p class="steps-item__text__show">Раскрыть</p>
+                </div>
+
+            </div>
+            <div class="steps-item">
+                <div class="steps-item__img">
+                    <img src="img/s4.png" alt="">
+                </div>
+                <p class="steps-item__num">4 шаг</p>
+                <p class="steps-item__title">Оплата товара</p>
+                <div class="steps-item__text">
+                    <p class="steps-item__text__content">
+                        - Мы отправляем счет на оплату.
+                        - Вы вносите предоплату, указанную в договоре.
+                    </p>
+                    <p class="steps-item__text__show">Раскрыть</p>
+                </div>
+
+            </div>
+            <div class="steps-item">
+                <div class="steps-item__img">
+                    <img src="img/s5.png" alt="">
+                </div>
+                <p class="steps-item__num">5 шаг</p>
+                <p class="steps-item__title">Если товар под заказ</p>
+                <div class="steps-item__text">
+                    <p class="steps-item__text__content">
+                        Исходя из брифа – мы осуществляем согласование (не все желания можно воплотить). Отправляем
+                        макет
+                        изделия.
+                        - Вы согласовываете окончательный макет изделия- С учетом договора вносит предоплату- Мы
+                        отправляем
+                        фото/видео отчет по изготовлению изделия.</p>
+                    <span class="steps-item__text__show">Раскрыть</span>
+                </div>
+
+            </div>
+            <div class="steps-item">
+                <div class="steps-item__img">
+                    <img src="img/s6.png" alt="">
+                </div>
+                <p class="steps-item__num">6 шаг</p>
+                <p class="steps-item__title">ДОСТАВКА ТОВАРА</p>
+                <div class="steps-item__text">
+                    <p class="steps-item__text__content">
+                        - Выбираем удобный для Вас формат для отправки груза. (самовывоз клиентом или через ТК)
+                        - Мы доставляем груз до ТК
+                        - ТК страхует товар- Мы делаем фотоотчет по отправке товара.
+                        - Вы согласовываете окончательный макет изделия- С учетом договора вносит предоплату- Мы
+                        отправляем
+                        фото/видео отчет по изготовлению изделия.</p>
+                    <p class="steps-item__text__show">Раскрыть</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="car">
+            <div class="car__map">
+                <img src="img/map.png" alt="">
+            </div>
+        </div>
     </div>
 </section>
-<div class="parts__pin-text tooltip" id="tip-1">
-    <div class="parts__pin-content">
-        <div class="parts__pin-content__title">
-            <div class="parts__pin-content__title__img"><img src="img/star.png" alt=""></div>
-            <p class="parts__pin-content__title__text">Востребованные
-                игровые элементы</p>
+<footer>
+    <div class="container">
+        <h2 class="section-title section-title--center section-title--white">Давайте зарабатывать вместе</h2>
+        <div class="footer-content">
+            <div class="contacts">
+                <div class="contacts-row">
+                    <div class="contacts-row__icon">
+                        <span class="contacts-row__icon__inner icon-1"></span>
+                    </div>
+                    <div class="contacts-row__content">
+                        <p class="contacts-row__content__title">Работаем без выходных с 9:00 до 22:00
+                        </p>
+                        <div class="contacts-row__content__text">
+                            <a class="contacts-row__content__text__p" href="tel:+79061016080">+7(906)1016080</a>
+                            <p class="header__inner__worktime__row__number__recall consult-trigger">Перезвоните мне</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts-row">
+                    <div class="contacts-row__icon">
+                        <span class="contacts-row__icon__inner icon-Mail"></span>
+                    </div>
+                    <div class="contacts-row__content">
+
+
+                        <a class="contacts-row__content__text__p"
+                           href="mailto:zavod@mega-jump.ru">zavod@mega-jump.ru</a>
+
+                    </div>
+                </div>
+                <div class="contacts-row">
+                    <div class="contacts-row__icon">
+                        <span class="contacts-row__icon__inner icon-Earth"></span>
+                    </div>
+                    <div class="contacts-row__content">
+                        <p class="contacts-row__content__title">Свяжитесь напрямую в :
+                        </p>
+                        <div class="contacts-row__content__text">
+                            <a href="https://api.whatsapp.com/send?phone=+79061016080&amp;text=Хочу%20получить%20консультацию%20руководителя%20%21" class="contacts-row__content__text__soc contacts-row__content__text__soc--wa">
+                                <div class="contacts-row__content__text__soc__img"><img src="img/viber2.png" alt="">
+                                </div>
+                                <p class="contacts-row__content__text__soc__text">WhatsApp</p>
+                            </a>
+                            <a href="tg://resolve?domain=mega_jump" class="contacts-row__content__text__soc contacts-row__content__text__soc--tg">
+                                <div class="contacts-row__content__text__soc__img"><img src="img/tg2.png" alt=""></div>
+                                <p class="contacts-row__content__text__soc__text">Telegram</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="map-wrapper">
+                <div id="map"></div>
+            </div>
         </div>
-        <p class="parts__pin-content__text">
-            Наши батуты имеют разнообразные
-            игровые элементы, интересные детям
-        </p>
+        <div class="other">
+            <div class="other-left">
+                <p>Москва 2019</p>
+                <p>Все права защищены</p>
+            </div>
+            <div class="other-center">
+                <p>УНП 2525612526</p>
+                <p> Политика конфеденциальности</p>
+            </div>
+            <div class="other-right">
+                <p>Сделано с любовью в</p>
+                <a target="_blank" href="https://paradigma.website">Paradigma.website</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="tooltips">
+    <div class="parts__pin-text tooltip" id="tip-1">
+        <div class="parts__pin-content">
+            <div class="parts__pin-content__title">
+                <div class="parts__pin-content__title__img"><img src="img/star.png" alt=""></div>
+                <p class="parts__pin-content__title__text">Востребованные
+                    игровые элементы</p>
+            </div>
+            <p class="parts__pin-content__text">
+                Наши батуты имеют разнообразные
+                игровые элементы, интересные детям
+            </p>
+        </div>
+    </div>
+    <div class="parts__pin-text tooltip" id="tip-2">
+        <div class="parts__pin-content">
+            <div class="parts__pin-content__title">
+                <div class="parts__pin-content__title__img"><img src="img/star.png" alt=""></div>
+                <p class="parts__pin-content__title__text">Безопасность
+                    </p>
+            </div>
+            <p class="parts__pin-content__text">
+                Они сертифицированы по последним стандартам 
+               (ТР ТС 038/2018) и обладают всеми параметрами, 
+                обеспечивающие безопасность
+            </p>
+        </div>
+    </div>
+    <div class="parts__pin-text tooltip" id="tip-3">
+        <div class="parts__pin-content">
+            <div class="parts__pin-content__title">
+                <div class="parts__pin-content__title__img"><img src="img/star.png" alt=""></div>
+                <p class="parts__pin-content__title__text">Хорошая идея для бизнеса
+                    </p>
+            </div>
+            <p class="parts__pin-content__text">
+                На них можно хорошо заработать. 
+                Мы окажем помощь на старте вашего бизнеса.            
+ 		</p>
+        </div>
+    </div>
+    <div class="parts__pin-text tooltip" id="tip-4">
+        <div class="parts__pin-content">
+            <div class="parts__pin-content__title">
+                <div class="parts__pin-content__title__img"><img src="img/star.png" alt=""></div>
+                <p class="parts__pin-content__title__text">Любимое развлечение для любого ребенка
+	</p>
+            </div>
+            <p class="parts__pin-content__text">
+                Над созданием аттракционов работает 
+		целая команда и делает их максимально 
+		привлекательными для детей            
+	</p>
+        </div>
+    </div>
+    <div class="parts__pin-text tooltip" id="tip-5">
+        <div class="parts__pin-content">
+            <div class="parts__pin-content__title">
+                <div class="parts__pin-content__title__img"><img src="img/star.png" alt=""></div>
+                <p class="parts__pin-content__title__text">Качественный продукт
+	</p>
+            </div>
+            <p class="parts__pin-content__text">
+                Они изготовлены из качественного 
+		ПВХ материала и защищены специальный слоем, 
+		который предотвращает выгорание.            
+	</p>
+        </div>
+    </div>
+    <div class="parts__pin-text tooltip" id="tip-6">
+        <div class="parts__pin-content">
+            <div class="parts__pin-content__title">
+                <div class="parts__pin-content__title__img"><img src="img/star.png" alt=""></div>
+                <p class="parts__pin-content__title__text">Индивидуальный дизайн
+	</p>
+            </div>
+            <p class="parts__pin-content__text">
+                Наши батуты имеют необычный, современный 
+		и технологичный дизайн. Так же есть возможность 
+		нанесения ваших креативов            
+	</p>
+        </div>
     </div>
 </div>
-<div class="parts__pin-text tooltip" id="tip-2">
-    <div class="parts__pin-content">
-        <div class="parts__pin-content__title">
-            <div class="parts__pin-content__title__img"><img src="img/star.png" alt=""></div>
-            <p class="parts__pin-content__title__text">Востребованные
-                игровые элементы</p>
+<div class="popup popup--order pseudo">
+    <form action="mail.php" class="popup__inner" onsubmit="yaCounter53394883.reachGoal('forma')">
+        <input type="hidden" name="formname" value="zakaz-katalog">
+        <p class="form__title">Заказать каталог</p>
+        <p class="form__desc">Обновлено: 24 марта</p>
+        <div class="form__input__item">
+            <label class="form__input__item__label" for="name_pop1"><img src="img/place.png" alt=""></label>
+            <input required name="name" id="name_pop1" placeholder="Ваше имя" class="form__input__item__inner"
+                   type="text"></div>
+        <div class="form__input__item">
+            <label class="form__input__item__label" for="email_pop1"><img src="img/mail2.png" alt=""></label>
+            <input name="e-mail" required id="email_pop1" placeholder="Ваш e-mail" class="form__input__item__inner"
+                   type="email">
         </div>
-        <p class="parts__pin-content__text">
-            Наши батуты имеют разнообразные
-            игровые элементы, интересные детям
+        <div class="form__input__item">
+            <label class="form__input__item__label" for="tel_pop1"><img src="img/tel.png" alt=""></label>
+            <input name="phone" required id="tel_pop1" placeholder="Ваш телефон" class="form__input__item__inner"
+                   type="tel"></div>
+        <div class="popup__button">
+            <div class="popup__button__img popup__button__img--1">
+                <img src="img/price_pop.png" alt=""></div>
+            <button type="submit" class="btn">ПОЛУЧИТЬ КАТАЛОГ С ЦЕНАМИ</button>
+        </div>
+        <p class="form__size">PDF 1.5 Mb</p>
+    </form>
+</div>
+<div class="popup popup--offer pseudo">
+    <form class="popup__inner " onsubmit="yaCounter53394883.reachGoal('forma')">
+        <input type="hidden" name="formname" value="predloj2">
+        <p class="form__title">Получите руководство </p>
+        <p class="form__desc">Обновлено: 24 марта</p>
+        <div class="form__input__item">
+            <label class="form__input__item__label" for="name_pop2"><img src="img/place.png" alt=""></label>
+            <input name="name" required id="name_pop2" placeholder="Ваше имя" class="form__input__item__inner" type="text"></div>
+        <div class="form__input__item">
+            <label class="form__input__item__label" for="email_pop2"><img src="img/mail2.png" alt=""></label>
+            <input name="e-mail" required id="email_pop2" placeholder="Ваш e-mail" class="form__input__item__inner" type="email">
+        </div>
+        <div class="form__input__item">
+            <label class="form__input__item__label" for="tel_pop2"><img src="img/tel.png" alt=""></label>
+            <input name="phone" required id="tel_pop2" placeholder="Ваш телефон" class="form__input__item__inner" type="tel"></div>
+        <div class="popup__button">
+            <div class="popup__button__img popup__button__img--2">
+                <img src="img/offer_pop.png" alt=""></div>
+            <button type="submit" class="btn">Получить руководство</button>
+        </div>
+        <p class="form__size">PDF 1.5 Mb</p>
+    </form>
+</div>
+<form class="popup popup--consult pseudo" onsubmit="yaCounter53394883.reachGoal('forma')">
+    <input type="hidden" name="formname" value="consult">
+    <div class="popup__inner ">
+        <p class="form__title">Получите консультацию</p>
+        <div class="form__input__item form__input__item--first">
+            <label class="form__input__item__label" for="name_pop3"><img src="img/place.png" alt=""></label>
+            <input name="name" required id="name_pop3" placeholder="Ваше имя" class="form__input__item__inner"
+                   type="text"></div>
+        <div class="form__input__item">
+            <label class="form__input__item__label" for="tel_pop3"><img src="img/tel.png" alt=""></label>
+            <input name="phone" required id="tel_pop3" placeholder="Ваш телефон" class="form__input__item__inner"
+                   type="tel"></div>
+        <button type="submit" class="btn btn--form">Перезвоните мне</button>
+
+    </div>
+</form>
+<div class="popup popup--thanks pseudo">
+    <div class="popup__inner ">
+        <img src="img/call_pop.png" alt="">
+        <p class="popup--thanks__title">Спасибо за интерес!
         </p>
+        <p class="popup--thanks__desc">Мы прямо сейчас обрабатываем Ваш запрос
+            и свяжемся с Вами в рабочее время Пн-Пт
+            с 9:00 до 20:00 по МСК</p>
     </div>
 </div>
-<div class="parts__pin-text tooltip" id="tip-3">
-    <div class="parts__pin-content">
-        <div class="parts__pin-content__title">
-            <div class="parts__pin-content__title__img"><img src="img/star.png" alt=""></div>
-            <p class="parts__pin-content__title__text">Востребованные
-                игровые элементы</p>
-        </div>
-        <p class="parts__pin-content__text">
-            Наши батуты имеют разнообразные
-            игровые элементы, интересные детям
-        </p>
-    </div>
-</div>
-<div class="parts__pin-text tooltip" id="tip-4">
-    <div class="parts__pin-content">
-        <div class="parts__pin-content__title">
-            <div class="parts__pin-content__title__img"><img src="img/star.png" alt=""></div>
-            <p class="parts__pin-content__title__text">Востребованные
-                игровые элементы</p>
-        </div>
-        <p class="parts__pin-content__text">
-            Наши батуты имеют разнообразные
-            игровые элементы, интересные детям
-        </p>
-    </div>
-</div>
-<div class="parts__pin-text tooltip" id="tip-5">
-    <div class="parts__pin-content">
-        <div class="parts__pin-content__title">
-            <div class="parts__pin-content__title__img"><img src="img/star.png" alt=""></div>
-            <p class="parts__pin-content__title__text">Востребованные
-                игровые элементы</p>
-        </div>
-        <p class="parts__pin-content__text">
-            Наши батуты имеют разнообразные
-            игровые элементы, интересные детям
-        </p>
-    </div>
-</div>
-<div class="parts__pin-text tooltip" id="tip-6">
-    <div class="parts__pin-content">
-        <div class="parts__pin-content__title">
-            <div class="parts__pin-content__title__img"><img src="img/star.png" alt=""></div>
-            <p class="parts__pin-content__title__text">Востребованные
-                игровые элементы</p>
-        </div>
-        <p class="parts__pin-content__text">
-            Наши батуты имеют разнообразные
-            игровые элементы, интересные детям
-        </p>
-    </div>
-</div>
+
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9d6a27e00abd31779e6bbb70bb9a2c5fd6bbd0001dbacf887c3578b49ee65a1a&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true&amp;id=map"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-747646217"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'AW-747646217');
+</script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+        m[i] = m[i] || function () {
+            (m[i].a = m[i].a || []).push(arguments)
+        };
+        m[i].l = 1 * new Date();
+        k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(53394883, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true
+    });
+</script>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/53394883" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
 <script src="js/jquery-3.3.1.min.js"></script>
+
 <script src="js/jquery.maskedinput.min.js"></script>
 <script src="js/ui.js"></script>
 <script src="js/jquery.ui.touch-punch.min.js"></script>
@@ -1139,5 +1749,23 @@
 <script src="js/fotorama.js"></script>
 <script src="js/test.js"></script>
 <script src="js/script.js"></script>
+
+<script>
+(function(w,d,u){
+var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+})(window,document,'https://cdn.bitrix24.ru/b10603624/crm/tag/call.tracker.js');
+</script>
 </body>
+<!-- Global site tag (gtag.js) - Google Ads: 747646217 -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139257700-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-139257700-1');
+</script>
+
 </html>

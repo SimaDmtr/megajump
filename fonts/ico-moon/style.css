@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?toiq56');
-  src:  url('fonts/icomoon.eot?toiq56#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?toiq56') format('truetype'),
-    url('fonts/icomoon.woff?toiq56') format('woff'),
-    url('fonts/icomoon.svg?toiq56#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?qmfn46');
+  src:  url('fonts/icomoon.eot?qmfn46#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?qmfn46') format('truetype'),
+    url('fonts/icomoon.woff?qmfn46') format('woff'),
+    url('fonts/icomoon.svg?qmfn46#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-Mail:before {
+  content: "\e907";
+}
+.icon-chevron-right:before {
+  content: "\e902";
+}
+.icon-chevron-left:before {
+  content: "\e904";
+}
 .icon-1:before {
   content: "\e900";
 }
@@ -33,10 +42,6 @@
 .icon-book:before {
   content: "\e903";
   color: #ffc502;
-}
-.icon-arrow:before {
-  content: "\e904";
-  color: #f9f8f6;
 }
 .icon-cash:before {
   content: "\e905";

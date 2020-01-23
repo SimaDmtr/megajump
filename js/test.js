@@ -84,8 +84,21 @@ $(function () {
     });
     // var endPrice = 0;
     // По нажатию на кнопку переключиться на следующий слайд
-
+    $('.stock-item__visible__right__link,.stock-item__visible__left__link').click(function () {
+        var scroll_el = $(this).attr('href'); // возьмем содержимое атрибута href, должен быть селектором, т.е. например начинаться с # или .
+        if ($(scroll_el).length != 0) { // проверим существование элемента чтобы избежать ошибки
+            $('html, body').animate({scrollTop: $(scroll_el).offset().top}, 1000); // анимируем скроолинг к элементу scroll_el
+            return false
+        }
+    });
     $nextTestButton.on('click', function (event) {
+        $('.next-test').removeClass('next-test--active');
+        $('.prev-test').removeClass('prev-test--active');
+
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#quiz_scroll").offset().top
+        }, 800);
+
         if (!$(this).hasClass('submit') && !$(this).hasClass('end-btn')) {
             event.preventDefault();
             $testSlider.slick('slickNext');
@@ -186,8 +199,8 @@ $(function () {
 
         var lineClass = ".test-block"
         var circleClass = ".test-circle"
-        var numberLine = $(lineClass + '-' + (currentIndex));
-        var numberCircle = $(circleClass + '-' + (currentIndex + 1));
+        var numberLine = $(lineClass + '-' + (currentIndex-1));
+        var numberCircle = $(circleClass + '-' + (currentIndex ));
         var numbFirst;
         if (elementNumber < 10) {
             numbFirst = '0' + elementNumber;
@@ -219,16 +232,16 @@ $(function () {
             $('.test__img-title').css({'display':'none'})
             document.getElementById('present_img').setAttribute('src','img/q_present.png')
         }else  if (currentIndex === 8){
-            if($('#test8-1:checked').length > 0){
+            if($('#qn7_1:checked').length > 0){
                 numProc.text('Скидка -10%');
                 price.text('Цена: 2500 р')
-            }else if($('#test8-2:checked').length > 0){
+            }else if($('#qn7_2:checked').length > 0){
                 numProc.text('Бесплатная доставка');
                 price.text('Цена: 2500 р')
-            }else if($('#test8-3:checked').length > 0){
+            }else if($('#qn7_3:checked').length > 0){
                 numProc.text('Насос');
                 price.text('Цена: 2500 р')
-            }else if($('#test8-4:checked').length > 0){
+            }else if($('#qn7_4:checked').length > 0){
                 numProc.text('Пакет документов: \n' +
                     'Бизнес на батутах');
                 price.text('Цена: 2500 р')
@@ -471,6 +484,17 @@ if ($("body").find(".test").length > 0) {
     $(elems).click(function () {
         $(elems).removeClass('checked');
         $(this).addClass('checked');
+        $(this).parents('.test-slider__item').find('.next-test').addClass('next-test--active');
+        $(this).parents('.test-slider__item').find('.prev-test').addClass('prev-test--active');
+        $(this).find('label')[0].click();
+    })
+    $('.customRadio_label-check').click(function () {
+        $(this).parents('.test-slider__item').find('.next-test').toggleClass('next-test--active');
+        $(this).parents('.test-slider__item').find('.prev-test').toggleClass('prev-test--active');
+    })
+    $('.test-slider__data__inputs_items_item_input').keyup(function () {
+        $(this).parents('.test-slider__item').find('.next-test').addClass('next-test--active');
+        $(this).parents('.test-slider__item').find('.prev-test').addClass('prev-test--active');
     })
 }
 
